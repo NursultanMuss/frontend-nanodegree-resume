@@ -84,3 +84,12 @@ function displayWork() {
     }
 }
 displayWork();
+
+$("#main").append(internationalizeButton);
+
+
+
+
+
+
+
