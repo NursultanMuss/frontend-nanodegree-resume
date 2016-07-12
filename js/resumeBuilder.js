@@ -97,6 +97,7 @@ function displayWork() {
 displayWork();
 
 $("#header").append(internationalizeButton);
+$("#mapDiv").append(googleMap);
 function inName(name){
     var splitedName = name.split(" ");
     return splitedName[0].slice(0,1).toUpperCase()+splitedName[0].slice(1).toLowerCase()+" "+splitedName[1].toUpperCase();
