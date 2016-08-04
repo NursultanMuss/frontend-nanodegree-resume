@@ -117,7 +117,7 @@ function initializeMap() {
   */
   map = new google.maps.Map(document.querySelector('#map'), mapOptions);
 
-
+$("#mapDiv").append(map);
   /*
   locationFinder() returns an array of every location string from the JSONs
   written for bio, education, and work.
